@@ -2,163 +2,146 @@
 
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
+  <head>
+  <meta charset="UTF-8">
         
-          <title>Data Analysis</title>
+  <title>Data Analysis</title>
         
-        <!-- Bootstrap css stylesheet - min -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- Bootstrap css stylesheet - min -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-            <style>
-            img {
-              width: 75%;
-              height: auto }
-            </style>
-        </head>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+    img {
+      width: 80%;
+      height: auto }
+  </style>
+  
+  </head>
+       
+  <body>
         
-        <body>
+  <div class="container">
         
-        <div class="container">
+  <!-- Navbar (resizes) based on device -->
         
-        <!-- Navbar (resizes) based on device -->
-        
-        <nav class="navbar navbar-expand-sm bg-light">
+  <nav class="navbar navbar-expand-sm bg-light">
         
         
         
-                <!-- Links -->
+  <!-- Links -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark col-md-12 row">
         
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark col-md-12 row">
+  <!-- Brand -->
+  <a class="navbar-brand" href="https://PAT-HURLCOKER.github.io/WeatherData.html">World Weather</a>
         
-                        <!-- Brand -->
-                        <a class="navbar-brand" href="https://PAT-HURLCOKER.github.io/WeatherData.html">World Weather</a>
+      
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
         
-                      
+    <li class="nav-item">
         
-                        <!-- Links -->
-                        <ul class="navbar-nav">
+    <a class="nav-link" href="https://PAT-HURLCOKER.github.io/convertcsv.htm">Data</a>
+       
+    </li>
         
-                          <li class="nav-item">
+    <!-- Dropdown -->
         
-                            <a class="nav-link" href="https://PAT-HURLCOKER.github.io/convertcsv.htm">Data</a>
+    <li class="nav-item dropdown">
         
-                          </li>
-        
-                          <!-- Dropdown -->
-        
-                          <li class="nav-item dropdown">
-        
-                              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
           
-                                Comparisons
+    Comparisons
           
-                              </a>
+    </a>
           
-                              <div class="dropdown-menu">
+    <div class="dropdown-menu">
           
-                                <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/comparison_1.html">Max Temperature</a>
+    <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/comparison_1.html">Max Temperature</a>
           
-                                <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/comparison_2.html">Humidity</a>
+    <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/comparison_2.html">Humidity</a>
           
-                                <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/comparison_3.html">Cloudiness</a>
+    <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/comparison_3.html">Cloudiness</a>
           
-                                <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/comparison_4.html">Wind Speed</a>
+    <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/comparison_4.html">Wind Speed</a>
           
-                              </div>
-                          </li>
+    </div>
+    </li>
+       
+             
         
-                      
+    <!-- Dropdown -->
         
-                          <!-- Dropdown -->
+    <li class="nav-item dropdown">
         
-                          <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
         
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+    Visualizations
         
-                              Visualizations
+    </a>
         
-                            </a>
+    <div class="dropdown-menu">
         
-                            <div class="dropdown-menu">
+    <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/plot_1.html">Max Temperature</a>
         
-                              <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/plot_1.html">Max Temperature</a>
+    <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/plot_2.html">Humidity</a>
         
-                              <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/plot_2.html">Humidity</a>
+    <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io//plot_3.html">Cloudiness</a>
         
-                              <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io//plot_3.html">Cloudiness</a>
+    <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/plot_4.html">Wind Speed</a>
         
-                              <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/plot_4.html">Wind Speed</a>
+    </div>
         
-                            </div>
+    </li>
         
-                          </li>
+    </ul>
         
-                        </ul>
+    </nav>
         
-                      </nav>
+  </nav>
+       
+    <div class = "row">
         
-                    </nav>
-        
-          <div class = "row">
-        
-          </div>
-  <div class = "row">
+    </div>
+  
+    <div class = "row">
 
     <div class="col-md-4" style='background-color: rgb(5, 184, 169)'>
 
-        <h1>Max Temperature</h1>
-    
-      <p>By definition of weather changes and the changes between the Southern Hemisphere and Northern Hemisphere we will yield something different.</p>
-        <br> 
-      <p>The Latitudes vs Temperatures is consistent with cooler temperatures in the highest parts of the Northern and Southern Hemispheres.
-
-          </p><br><br></p>    
-          
-
-        </p>
-
+    <h2>Max Temperature</h2>
+      <p><font size="-1">The Latitudes vs Temperatures visualization is consistent with cooler temperatures in the highest elevation of the Northern and 
+        Southern Hemispheres.</p>
+      <p>These bands lay above +20 and below -20 of the Equator. </p>   
+      <p>It is winter in the Southern Hemisphere (cooler) and summer (warmer) in the Northern Hemisphere per the 8/5/2018 plot.  As you get close to the Equator, 
+          the temperatures are up.  Cities and communities near the Equator always have warm temperatures, (except if they are in higher elevations). 
+          They are tropical by nature, overcast with rain (unless the Trade Winds are blowing).</font> </p> 
+          <br><br>       
     </div>
 
-    <div class="col-md-4" style='background-color: rgb(44, 5, 134)'>
+    <div class="col-md-4" style='background-color: rgb(44, 5, 134);color:white'>
 
-        <h2>Visualizations</h2>
-
-        <img src = "https://PAT-HURLCOKER.github.io/images/assets/images/Fig1.png" width ="30" height ="1" alt = "fig_1">
+    <h2>January 5, 2017</h2>
+    <br><br><br>
+      <img src = "https://PAT-HURLCOKER.github.io/images/assets/images/Fig1.png" width ="30" height ="1" alt = "fig_1">
         
-        <br>
     </div>  
     <br><br><br>
-    <div class="col-md-4" style='background-color: rgb(44, 5, 134)'>
-        <h2>Visualizations</h2>
-
-        <img src = "https://PAT-HURLCOKER.github.io/images/Latitude_vs_Temp.png" width ="30" height ="21" alt = "plot_1">
-
-    </div>
+    <div class="col-md-4" style='background-color: rgb(44, 5, 134);color:white'>
+    <h2>August 5, 2018</h2>
+    <br><br><br>
+      <img src = "https://PAT-HURLCOKER.github.io/images/Latitude_vs_Temp.png" width ="30" height ="1" alt = "plot_1">
 
     </div>
-    <div class = "row">
 
-            <div class="col-md-12" style='background-color: rgb(5, 184, 169)'>
- 
-              <p>It is winter in the Southern Hemisphere (cooler) and summer in the Northern Hemisphere.  
-                As you get close to the Equator, the temperatures are up.  The cities and communities near the Equator are always have warm temperatures 
-                (except if they are in higher elevations), tropical by nature, overcast with rain (unless the Trade Winds are blowing).  
-                These bands always are just above +20 and below -20 of the Equator.
-            <br><br></p>    
-                  
-        
-                </p>
-        
-            </div>
+   
   </div>
 
 </div>
